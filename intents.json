@@ -18,6 +18,23 @@
       ]
     },
     {
+      "tag": "software_engineering",
+      "patterns": [
+        "What courses are offered?",
+        "Tell me about the faculty.",
+        "How can I apply for admission?",
+        "What are the research areas?",
+        "Is there any internship program?"
+      ],
+      "responses": [
+        "Our department offers a wide range of courses in software engineering, including software design, algorithms, databases, and more.",
+        "Our faculty consists of highly experienced professors and industry experts with a strong background in software engineering.",
+        "To apply for admission, you can visit the university's official website and follow the application process outlined there.",
+        "Our department focuses on various research areas, including artificial intelligence, software testing, cybersecurity, and software development methodologies.",
+        "Yes, we offer internship programs that provide valuable real-world experience to our students. You can check the department's website for more details."
+      ]
+    },
+    {
       "tag": "goodbye",
       "patterns": [
         "Goodbye",
