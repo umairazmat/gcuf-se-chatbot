@@ -3,81 +3,187 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Hi",
+        "Hey there",
+        "Good morning",
+        "Good afternoon"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello! How can I assist you today?",
+        "Hi! How can I help you?",
+        "Hey there! How may I assist you?",
+        "Good morning! How can I be of service?",
+        "Good afternoon! How may I assist you today?"
+      ]
+    },
+    {
+      "tag": "software_engineering",
+      "patterns": [
+        "What courses are offered?",
+        "Tell me about the faculty.",
+        "How can I apply for admission?",
+        "What are the research areas?",
+        "Is there any internship program?"
+      ],
+      "responses": [
+        "Our department offers a wide range of courses in software engineering, including software design, algorithms, databases, and more.",
+        "Our faculty consists of highly experienced professors and industry experts with a strong background in software engineering.",
+        "To apply for admission, you can visit the university's official website and follow the application process outlined there.",
+        "Our department focuses on various research areas, including artificial intelligence, software testing, cybersecurity, and software development methodologies.",
+        "Yes, we offer internship programs that provide valuable real-world experience to our students. You can check the department's website for more details."
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Goodbye! Have a great day!",
+        "Bye! Take care and have a wonderful day!",
+        "See you later! If you need any further assistance, feel free to ask.",
+        "Take care! Feel free to reach out if you have any more questions."
       ]
     },
     {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
+      "tag":["thank"  , "thankyou" , "thanks"], 
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "Thanks a lot"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "You're welcome! It's my pleasure to help.",
+        "You're welcome! If you need any more assistance, feel free to ask.",
+        "You're welcome! I'm here to assist you.",
+        "No problem! Let me know if there's anything else I can help with."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "help",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Can you help me?",
+        "I need assistance",
+        "I'm stuck, can you assist?",
+        "Help me with something",
+        "I need help regarding admissions"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Of course! I'm here to help. What do you need assistance with?",
+        "Certainly! Please let me know how I can assist you.",
+        "I'd be happy to help. What do you need assistance with?",
+        "Sure! I'm here to assist you. How can I help?"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "course_info",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "What are the major courses in this degree?",
+        "Can you provide information about the courses?",
+        "Which courses are mandatory for the Software Engineering program?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Here are the courses offered this semester: [PF, OPP, DSA, Databases, SQA, SRE, SVAV, AI, Android Development, Web Engineering].",
+        "Sure! Let me provide you with information about the courses available this semester.",
+        "The mandatory courses for the Computer Science program are: PF, OPP, DSA, Databases, SQA, SRE, SVAV, AI, Android Development, Web Engineering."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "faculty_info",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Who are the faculty members in the department?",
+        "How many doctors are there in your department?",
+        "How can I contact a professor?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "The faculty members in the department are highly qualified from foreign universities.",
+        "There are $ doctors in our department.",
+        "You can't contact a specific professor in the department."
+      ]
+    },
+    {
+      "tag": "admission_info",
+      "patterns": [
+        "How can I apply for admission to the admission in different programs? Department offers!",
+        "What are the admission requirements?",
+        "What documents do I need to submit for the application?",
+        "When is the application deadline?"
+      ],
+      "responses": [
+        "To apply for admission to the Computer Science program, you can visit our university's website and follow the application process outlined there.",
+        "The admission requirements for the Software Engineering program include [FSc Pre-Engineering or Medical and ICS (Math, Phy., Computer)].",
+        "For the application, you will need to submit documents such as [hard form of application along with domicile and latest academic detail].",
+        "To know the application deadline, you can visit the university's website."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Are there any scholarships available for admitted students?",
+        "Can you provide information about the scholarship programs?",
+        "How can I apply for a scholarship?"
+      ],
+      "responses": [
+        "Yes, different scholarships are available for admitted students, including BUSP, HEC, and many other NGO scholarships.",
+        "Certainly! We have several scholarship programs that you can explore. These include government scholarships and NGO scholarships with different eligibility criteria. For further information, you can visit the website.",
+        "To apply for a scholarship, you will need to complete a separate application form and meet the specific requirements of the scholarship program you are interested in."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "Is there any financial aid or assistance provided?",
+        "What options are available for financial support?",
+        "Can you guide me on obtaining financial aid?"
+      ],
+      "responses": [
+        "Yes, the university provides financial aid and assistance to eligible students. This includes grants, loans, work-study programs, and other forms of support.",
+        "There are several options for financial support, including need-based aid, merit-based scholarships, and student loans. You can explore these options and determine the ones that suit your circumstances.",
+        "To obtain financial aid, you will need to complete the financial aid application and provide the necessary documentation. The university's financial aid office can guide you through the process."
+      ]
+    },
+    {
+      "tag": "transfer_admission",
+      "patterns": [
+        "Can I transfer to the Computer Science program from another university?",
+        "What are the requirements for transferring to this department?",
+        "Is there a separate admission process for transfer students?"
+      ],
+      "responses": [
+        "Yes, transfer students are welcome to apply to the Computer Science program. The specific requirements for transferring to this department include [list of transfer requirements].",
+        "To transfer to the Computer Science program, you will need to meet certain criteria, such as completing prerequisite courses and meeting the minimum GPA requirement.",
+        "There is a separate admission process for transfer students. You will need to submit your academic transcripts, course descriptions, and other relevant documents as part of your application."
+      ]
+    },
+    {
+      "tag": "admission_interview",
+      "patterns": [
+        "Do I need to appear for an admission interview?",
+        "Will there be an interview as part of the admission process?",
+        "How can I prepare for the admission interview?"
+      ],
+      "responses": [
+        "An admission interview may be part of the application process for the Computer Science program. If required, the university will notify you about the interview schedule and details.",
+        "Yes, an interview is conducted as part of the admission process to assess your suitability for the program. The university will provide you with information regarding the interview process and preparation tips.",
+        "To prepare for the admission interview, you can research common interview questions, review your application materials, and brush up on your knowledge of computer science topics. Additionally, it is helpful to practice answering questions confidently and articulately."
+      ]
+    },
+    {
+      "tag": "admission_status",
+      "patterns": [
+        "How can I check the status of my admission application?",
+        "When will I receive a decision on my application?",
+        "Can you provide an update on my admission status?"
+      ],
+      "responses": [
+        "To check the status of your admission application, you can log in to the university's online application portal and view the updates there. Alternatively, you can contact the admissions office for assistance.",
+        "The time it takes to receive a decision on your application can vary. Once the evaluation process is complete, you will be notified of the admission decision through email or the online application portal.",
+        "I apologize, but as a chatbot, I don't have access to specific admission records. However, you can reach out to the admissions office directly for an update on your admission status."
       ]
     }
   ]
