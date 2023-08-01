@@ -7,14 +7,45 @@
         "Hi",
         "Hey there",
         "Good morning",
-        "Good afternoon"
+        "Good afternoon",
+        "Hi there",
+        "Greetings",
+        "Howdy",
+        "Hey",
+        "Hiya",
+        "What's up",
+        "Morning",
+        "Afternoon",
+        "Yo"
       ],
       "responses": [
         "Hello! How can I assist you today?",
         "Hi! How can I help you?",
         "Hey there! How may I assist you?",
-        "Good morning! How can I be of service?",
-        "Good afternoon! How may I assist you today?"
+        "Hi there! What can I do for you?",
+        "Greetings! How may I be of help?",
+        "Howdy! How can I assist you today?",
+        "Hey! How can I help you?",
+        "Hiya! How may I assist you?",
+        "What's up? How can I be of service?",
+        "Good morning! Is there anything I can assist you with?",
+        "Good afternoon! How may I help you?",
+        "Yo! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "salam",
+      "patterns": [
+        "AoA",
+        "AOA",
+        "Assalam o Alikum",
+        "Assalam u Alikum",
+        "Salam"
+      ],
+      "responses": [
+        "Walikum u salam! How can I help you?",
+        "Wao! How can I assist you today?",
+        "WAO! How can I assist you today?"
       ]
     },
     {
@@ -23,13 +54,17 @@
         "Goodbye",
         "Bye",
         "See you later",
-        "Take care"
+        "Take care",
+        "Catch you later",
+        "Till we meet again",
+        "Bye-bye"
       ],
       "responses": [
         "Goodbye! Have a great day!",
         "Bye! Take care and have a wonderful day!",
         "See you later! If you need any further assistance, feel free to ask.",
-        "Take care! Feel free to reach out if you have any more questions."
+        "Take care! Feel free to reach out if you have any more questions.",
+        "Bye-bye! If you ever require help, feel free to reach out."
       ]
     },
     {
@@ -38,13 +73,40 @@
         "Thank you",
         "Thanks",
         "Appreciate it",
-        "Thanks a lot"
+        "Thanks a lot",
+        "Jazakallah",
+        "Jazakallah Khair",
+        "Jazakumullah Khair",
+        "Thanks for your help",
+        "Thanks for the assistance",
+        "Thanks for the guidance"
       ],
       "responses": [
         "You're welcome! It's my pleasure to help.",
         "You're welcome! If you need any more assistance, feel free to ask.",
         "You're welcome! I'm here to assist you.",
-        "No problem! Let me know if there's anything else I can help with."
+        "No problem! Let me know if there's anything else I can help with.",
+        "You're welcome! It's my pleasure to be of assistance.",
+        "You're welcome! If there's anything specific you need, feel free to ask.",
+        "You're welcome! I'm here to help whenever you need it.",
+        "You're welcome! If there's anything else I can do for you, just let me know.",
+        "You're welcome! If you have more questions in the future, I'll be here to answer them."
+      ]
+    },
+    {
+      "tag": "BS_software_engineering",
+      "patterns": [
+        "Can you tell me about the BS Software Engineering program?",
+        "How long is the duration of the BS Software Engineering program?",
+        "I'm interested in the BS Software Engineering program; can you give me some details about it?",
+        "Are you able to share insights into what the BS Software Engineering program entails?"
+      ],
+      "responses": [
+        "The BS Software Engineering program is a 4-year undergraduate degree that spans across 8 semesters.",
+        "The BS Software Engineering program typically takes 4 years to complete, divided into 8 semesters.",
+        "Sure! The BS Software Engineering program is a 4-year course consisting of 8 semesters.",
+        "The BS Software Engineering program is designed to be completed in 4 years, with a total of 8 semesters.",
+        "Yes, 4 years is the standard duration for the BS Software Engineering program, which includes 8 semesters."
       ]
     },
     {
