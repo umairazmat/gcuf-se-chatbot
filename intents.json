@@ -169,6 +169,26 @@
       ]
     },
     {
+      "tag": "faculty_info",
+      "patterns": [
+        "Tell me about the faculty",
+        "What qualifications do the faculty members have?",
+        "Can you provide information about the faculty?",
+        "I want to know about the faculty members",
+        "Who are the faculty members in the Software Engineering department?",
+        "Tell me about the professors in the department",
+        "What are the names of the faculty members?",
+        "Who are the lecturers in the Software Engineering department?",
+        "Can you provide email of the faculty members?",
+        "gmail or email of the faculty members?"
+      ],
+      "responses": [
+        "Sure! Here is the information about the faculty members in the Software Engineering department:\n\nName List:\n1. Dr. Muhammad Awais\n2. Dr. Khurram Zeeshan Haider\n3. Dr. Muhammad Sheraz Malik\n4. Dr. M. Yahya Saeed\n5. Engr. Adeel Rifaat Mirza\n6. Nauman-ul-haq\n7. Usama Ahmed\n8. Zubair Nabi",
+        "Sure! faculty members in the Software Engineering department:\n\nName List:\n1. Dr. Muhammad Awais - Chairman / Associate Professor\n2. Dr. Khurram Zeeshan Haider - Assistant Professor\n3. Dr. Muhammad Sheraz Malik - Associate Professor\n4. Dr. M. Yahya Saeed - Lecturer\n5. Engr. Adeel Rifaat Mirza - Lecturer\n6. Nauman-ul-haq - Lecturer\n7. Usama Ahmed - Assistant Professor\n8. Zubair Nabi - Lab Engineer",
+        "Here are the email addresses of the faculty members in the Software Engineering department:\n\n1. Dr. Muhammad Awais - awais_java@yahoo.com\n2. Dr. Khurram Zeeshan Haider - haider_25@hotmail.com\n3. Dr. Muhammad Sheraz Malik - sheraz_awan@gcuf.edu.pk\n4. Dr. M. Yahya Saeed - m_yahya_saeed@yahoo.com\n5. Engr. Adeel Rifaat Mirza - adeel.mirza@gcuf.edu.pk\n6. Nauman-ul-haq - nauman315@gmail.com\n7. Usama Ahmed - usamaahmed@hotmail.com\n8. Zubair Nabi - zubair.nabi@yahoo.com"
+      ]
+    },
+    {
       "tag": "BS_software_engineering",
       "patterns": [
         "Can you tell me about the BS Software Engineering program?",
@@ -209,33 +229,6 @@
         "Courses like Software Quality Assurance (SQA) and Software Reliability Engineering (SRE) have a strong focus on cybersecurity, ensuring that students understand software vulnerabilities and methods to enhance security.",
         "Yes, students have the opportunity to propose and undertake independent study projects as part of their coursework, under the guidance of faculty members.",
         "In a typical semester, students generally take around 5-6 courses, with each course carrying a specific credit weightage depending on its complexity and workload."
-      ]
-    },
-    {
-      "tag": "faculty_info",
-      "patterns": [
-        "What are the qualifications and expertise of the faculty members in the Software Engineering Department?",
-        "Do the faculty members have industry experience in addition to their academic qualifications?",
-        "Are there any renowned professors or researchers in the Software Engineering Department?",
-        "How is the faculty-to-student ratio maintained in the Software Engineering program?",
-        "Can you tell me about the research areas of the faculty members in the Software Engineering Department?",
-        "Are there any guest lectures or workshops conducted by industry experts for Software Engineering students?",
-        "What initiatives does the department take to ensure continuous professional development of its faculty members?",
-        "Can students consult faculty members outside of regular office hours?",
-        "Is there a faculty advisor system for guiding students in their academic and career choices?",
-        "Are the faculty members approachable and supportive of student queries and concerns?"
-      ],
-      "responses": [
-        "The faculty members in the Software Engineering Department possess highly qualified academic backgrounds, with many holding doctoral degrees from reputable universities. They have expertise in various areas of software engineering and related disciplines.",
-        "Yes, in addition to their academic qualifications, several faculty members in the Software Engineering Department have significant industry experience. This blend of academic and practical knowledge enriches the learning experience for students.",
-        "The Software Engineering Department is proud to have renowned professors and researchers who have made significant contributions to the field of software engineering. Their presence fosters a dynamic learning environment for our students.",
-        "The department maintains a favorable faculty-to-student ratio to ensure that students receive personalized attention and guidance in their academic pursuits.",
-        "The faculty members in the Software Engineering Department are actively involved in various research areas, such as software development methodologies, artificial intelligence, cybersecurity, and software testing, among others.",
-        "Yes, the Software Engineering Department frequently arranges guest lectures and workshops conducted by industry experts to provide students with insights into the latest industry trends and practices.",
-        "To enhance their skills and knowledge, the department encourages faculty members to participate in workshops, conferences, and training programs. This ensures that they stay up-to-date with the latest advancements in their respective fields.",
-        "Yes, faculty members in the Software Engineering Department often hold regular office hours during which students can consult them for academic assistance, project guidance, or general inquiries.",
-        "The department operates a faculty advisor system to guide students throughout their academic journey, offering advice on course selection, career options, and personal development.",
-        "Absolutely! The faculty members in the Software Engineering Department are known for being approachable, friendly, and supportive of student queries and concerns. They are committed to helping students succeed in their academic and professional endeavors."
       ]
     },
     {
