@@ -189,6 +189,51 @@
       ]
     },
     {
+      "tag": "admission_process",
+      "patterns": [
+        "How to apply for GCUF Admission?",
+        "GCUF Admission process",
+        "GCUF Admission procedure",
+        "Admission procedure",
+        "Steps to apply for GCUF Admission",
+        "What are the steps for GCUF Admission?",
+        "What are the steps for software Admission?"
+      ],
+      "responses": [
+        "To apply for admission to the Software Engineering program, please visit our university's website and follow the application process outlined for the Department of Software Engineering.",
+        "Apply Online at : https://admissions.gcuf.edu.pk/login.php. 1: Create Admission Account. 2: Login to Admission Portal. 3: Check Personal Information.4: Upload Photograph.5: Add Academic Details.6: Add Entry Test Details (if required).7: Select Program(s).8: Proofreading and Application Finalization.9: Fee Voucher."
+      ]
+    },
+    {
+      "tag": "admission_required_documents",
+      "patterns": [
+        "What documents are required for admission?",
+        "List of required documents for GCUF admission",
+        "Which documents do I need for applying to GCUF?",
+        "Can you tell me the documents needed for GCUF admission?",
+        "What are the necessary documents for GCUF admission?"
+      ],
+      "responses": [
+        "To apply for admission, you need to submit the following documents, each in 2 copies, attested by a government official:\n\n1. Copies of Academic Documents (Matric, FSc)\n2. Copies of ID Card (Student CNIC)\n3. Copies of BA Form (Bachelor's Degree)\n4. Copies of Domicile (2 copies)\n5. 4 Passport-sized Photographs\n6. Copies of Father's CNIC (2 copies)\n7. Admission Fee Voucher (2 copies)\n8. Admission Form (2 copies)\n9. File Cover (2 copies)\n\nAll documents must be submitted to the department in two sets.\n\nPlease ensure that all documents are properly attested by a government official before submission."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+      "How can I contact the department?",
+      "What is the department's contact information?",
+      "Can you provide me with the department's contact details?",
+      "I need to get in touch with the department. How can I do that?",
+      "What are the ways to contact the department?",
+      "Please give me the contact info for the department."
+      ],
+      "responses": [
+      "You can contact the Software Engineering department at: \n\nAddress: 2nd Floor Yousaf Block, Government College University Faisalabad-Main Campus, Allama Iqbal Road, Faisalabad, Pakistan\nPhone: (041) 9203016\nEmail: se@gcuf.edu.pk\nOffice Hours: Monday to Friday, 9:00 AM to 5:00 PM\n\nFor any inquiries or assistance, please feel free to contact the department during the specified office hours.",
+      "You can contact Phone: (041) 9203016\nEmail: se@gcuf.edu.pk\nOffice Hours: Monday to Friday, 9:00 AM to 5:00 PM For any inquiries or assistance, please feel free to contact the department during the specified office hours."
+      ]
+      }
+    ,
+    {
       "tag": "BS_software_engineering",
       "patterns": [
         "Can you tell me about the BS Software Engineering program?",
@@ -231,33 +276,7 @@
         "In a typical semester, students generally take around 5-6 courses, with each course carrying a specific credit weightage depending on its complexity and workload."
       ]
     },
-    {
-      "tag": "admission_info",
-      "patterns": [
-        "How can I apply for admission to the Software Engineering program?",
-        "What are the admission requirements for the Software Engineering Department?",
-        "What documents do I need to submit for the Software Engineering program application?",
-        "Is there any specific entrance exam for the Software Engineering program?",
-        "Can you provide information about the curriculum of the Software Engineering program?",
-        "Are there any scholarships available for students applying to the Software Engineering Department?",
-        "What programming languages are taught in the Software Engineering program?",
-        "Are there any internship opportunities for Software Engineering students?",
-        "Can you tell me about the faculty members in the Software Engineering Department?",
-        "Is there a capstone project or thesis requirement for Software Engineering students?"
-      ],
-      "responses": [
-        "To apply for admission to the Software Engineering program, please visit our university's website and follow the application process outlined for the Department of Software Engineering.",
-        "The admission requirements for the Software Engineering Department include completing FSc Pre-Engineering or Medical and ICS (Mathematics, Physics, Computer) with a minimum percentage of 50.",
-        "For the application to the Software Engineering program, you will need to submit documents such as a hard copy of the application form, your domicile certificate, and the latest academic transcripts.",
-        "Yes, there is a specific entrance exam for the Software Engineering program. The exam evaluates your aptitude in programming, logical reasoning, and problem-solving skills.",
-        "The curriculum of the Software Engineering program covers various aspects of software development, including programming languages, data structures, algorithms, software design, and development methodologies.",
-        "Yes, there are scholarships available for exceptional students applying to the Software Engineering Department. The eligibility criteria and application process can be found on our university's website.",
-        "The Software Engineering program teaches programming languages such as Java, C++, Python, and JavaScript, among others, to equip students with a strong foundation in software development.",
-        "The Software Engineering Department collaborates with various industry partners, providing internship opportunities to students to gain real-world experience and apply their skills in practical settings.",
-        "The Software Engineering Department has a team of highly qualified and experienced faculty members who are dedicated to providing quality education and mentorship to the students.",
-        "Yes, there is a capstone project requirement for Software Engineering students, where they work on a real-world software development project under the guidance of faculty members."
-      ]
-    },
+   
     {
       "tag": "scholarships",
       "patterns": [

@@ -81,8 +81,8 @@ body {
 
 .messages__item {
     background: orange;
-    max-width: 60.6%;
-    width: fit-content;
+    max-width: 80.6%;
+    width: max-content;
 }
 
 .messages__item--operator {
