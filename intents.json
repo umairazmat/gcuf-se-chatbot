@@ -18,23 +18,6 @@
       ]
     },
     {
-      "tag": "software_engineering",
-      "patterns": [
-        "What courses are offered?",
-        "Tell me about the faculty.",
-        "How can I apply for admission?",
-        "What are the research areas?",
-        "Is there any internship program?"
-      ],
-      "responses": [
-        "Our department offers a wide range of courses in software engineering, including software design, algorithms, databases, and more.",
-        "Our faculty consists of highly experienced professors and industry experts with a strong background in software engineering.",
-        "To apply for admission, you can visit the university's official website and follow the application process outlined there.",
-        "Our department focuses on various research areas, including artificial intelligence, software testing, cybersecurity, and software development methodologies.",
-        "Yes, we offer internship programs that provide valuable real-world experience to our students. You can check the department's website for more details."
-      ]
-    },
-    {
       "tag": "goodbye",
       "patterns": [
         "Goodbye",
@@ -50,7 +33,7 @@
       ]
     },
     {
-      "tag":["thank"  , "thankyou" , "thanks"], 
+      "tag": "thank",
       "patterns": [
         "Thank you",
         "Thanks",
@@ -71,7 +54,7 @@
         "I need assistance",
         "I'm stuck, can you assist?",
         "Help me with something",
-        "I need help regarding admissions"
+        "I Need Help Regargind Addmissions"
       ],
       "responses": [
         "Of course! I'm here to help. What do you need assistance with?",
@@ -83,55 +66,109 @@
     {
       "tag": "course_info",
       "patterns": [
-        "What are the major courses in this degree?",
-        "Can you provide information about the courses?",
-        "Which courses are mandatory for the Software Engineering program?"
+        "Can you tell me about the advanced-level courses available in the Software Engineering program?",
+        "Are there any specialized elective courses for Software Engineering students?",
+        "What are the prerequisites for enrolling in the Artificial Intelligence course?",
+        "Is there a course that focuses on software project management in the Software Engineering program?",
+        "Do you offer any hands-on practical courses, such as software development labs?",
+        "Can you provide a brief overview of the Object-Oriented Programming (OOP) course content?",
+        "Are there any internship or industry attachment programs as part of the curriculum?",
+        "Which courses have a strong focus on cybersecurity and software vulnerabilities?",
+        "Can students propose and undertake independent study projects as part of their coursework?",
+        "What is the typical workload and credit distribution for courses in a semester?"
       ],
       "responses": [
-        "Here are the courses offered this semester: [PF, OPP, DSA, Databases, SQA, SRE, SVAV, AI, Android Development, Web Engineering].",
-        "Sure! Let me provide you with information about the courses available this semester.",
-        "The mandatory courses for the Computer Science program are: PF, OPP, DSA, Databases, SQA, SRE, SVAV, AI, Android Development, Web Engineering."
+        "The advanced-level courses in the Software Engineering program cover topics such as Advanced Software Development, Software Architecture, Cloud Computing, Machine Learning, and Cybersecurity, among others.",
+        "Yes, the Software Engineering Department offers a range of specialized elective courses, allowing students to delve deeper into areas like Mobile App Development, Game Development, DevOps, and Big Data Analytics.",
+        "The Artificial Intelligence course has the prerequisite of completing the Data Structures and Algorithms course to ensure students have the necessary programming and problem-solving skills.",
+        "Yes, the Software Engineering program includes a dedicated course on software project management, which focuses on planning, organizing, and executing software development projects effectively.",
+        "Absolutely! The Software Engineering program incorporates hands-on practical courses, including software development labs, to provide students with practical experience in applying theoretical concepts.",
+        "The Object-Oriented Programming (OOP) course covers the fundamentals of object-oriented programming, classes, inheritance, polymorphism, and designing object-oriented solutions to real-world problems.",
+        "Yes, the Software Engineering Department facilitates internships and industry attachment programs to give students valuable industry exposure and a chance to work on real-world projects.",
+        "Courses like Software Quality Assurance (SQA) and Software Reliability Engineering (SRE) have a strong focus on cybersecurity, ensuring that students understand software vulnerabilities and methods to enhance security.",
+        "Yes, students have the opportunity to propose and undertake independent study projects as part of their coursework, under the guidance of faculty members.",
+        "In a typical semester, students generally take around 5-6 courses, with each course carrying a specific credit weightage depending on its complexity and workload."
       ]
     },
     {
       "tag": "faculty_info",
       "patterns": [
-        "Who are the faculty members in the department?",
-        "How many doctors are there in your department?",
-        "How can I contact a professor?"
+        "What are the qualifications and expertise of the faculty members in the Software Engineering Department?",
+        "Do the faculty members have industry experience in addition to their academic qualifications?",
+        "Are there any renowned professors or researchers in the Software Engineering Department?",
+        "How is the faculty-to-student ratio maintained in the Software Engineering program?",
+        "Can you tell me about the research areas of the faculty members in the Software Engineering Department?",
+        "Are there any guest lectures or workshops conducted by industry experts for Software Engineering students?",
+        "What initiatives does the department take to ensure continuous professional development of its faculty members?",
+        "Can students consult faculty members outside of regular office hours?",
+        "Is there a faculty advisor system for guiding students in their academic and career choices?",
+        "Are the faculty members approachable and supportive of student queries and concerns?"
       ],
       "responses": [
-        "The faculty members in the department are highly qualified from foreign universities.",
-        "There are $ doctors in our department.",
-        "You can't contact a specific professor in the department."
+        "The faculty members in the Software Engineering Department possess highly qualified academic backgrounds, with many holding doctoral degrees from reputable universities. They have expertise in various areas of software engineering and related disciplines.",
+        "Yes, in addition to their academic qualifications, several faculty members in the Software Engineering Department have significant industry experience. This blend of academic and practical knowledge enriches the learning experience for students.",
+        "The Software Engineering Department is proud to have renowned professors and researchers who have made significant contributions to the field of software engineering. Their presence fosters a dynamic learning environment for our students.",
+        "The department maintains a favorable faculty-to-student ratio to ensure that students receive personalized attention and guidance in their academic pursuits.",
+        "The faculty members in the Software Engineering Department are actively involved in various research areas, such as software development methodologies, artificial intelligence, cybersecurity, and software testing, among others.",
+        "Yes, the Software Engineering Department frequently arranges guest lectures and workshops conducted by industry experts to provide students with insights into the latest industry trends and practices.",
+        "To enhance their skills and knowledge, the department encourages faculty members to participate in workshops, conferences, and training programs. This ensures that they stay up-to-date with the latest advancements in their respective fields.",
+        "Yes, faculty members in the Software Engineering Department often hold regular office hours during which students can consult them for academic assistance, project guidance, or general inquiries.",
+        "The department operates a faculty advisor system to guide students throughout their academic journey, offering advice on course selection, career options, and personal development.",
+        "Absolutely! The faculty members in the Software Engineering Department are known for being approachable, friendly, and supportive of student queries and concerns. They are committed to helping students succeed in their academic and professional endeavors."
       ]
     },
     {
       "tag": "admission_info",
       "patterns": [
-        "How can I apply for admission to the admission in different programs? Department offers!",
-        "What are the admission requirements?",
-        "What documents do I need to submit for the application?",
-        "When is the application deadline?"
+        "How can I apply for admission to the Software Engineering program?",
+        "What are the admission requirements for the Software Engineering Department?",
+        "What documents do I need to submit for the Software Engineering program application?",
+        "Is there any specific entrance exam for the Software Engineering program?",
+        "Can you provide information about the curriculum of the Software Engineering program?",
+        "Are there any scholarships available for students applying to the Software Engineering Department?",
+        "What programming languages are taught in the Software Engineering program?",
+        "Are there any internship opportunities for Software Engineering students?",
+        "Can you tell me about the faculty members in the Software Engineering Department?",
+        "Is there a capstone project or thesis requirement for Software Engineering students?"
       ],
       "responses": [
-        "To apply for admission to the Computer Science program, you can visit our university's website and follow the application process outlined there.",
-        "The admission requirements for the Software Engineering program include [FSc Pre-Engineering or Medical and ICS (Math, Phy., Computer)].",
-        "For the application, you will need to submit documents such as [hard form of application along with domicile and latest academic detail].",
-        "To know the application deadline, you can visit the university's website."
+        "To apply for admission to the Software Engineering program, please visit our university's website and follow the application process outlined for the Department of Software Engineering.",
+        "The admission requirements for the Software Engineering Department include completing FSc Pre-Engineering or Medical and ICS (Mathematics, Physics, Computer) with a minimum percentage of 50.",
+        "For the application to the Software Engineering program, you will need to submit documents such as a hard copy of the application form, your domicile certificate, and the latest academic transcripts.",
+        "Yes, there is a specific entrance exam for the Software Engineering program. The exam evaluates your aptitude in programming, logical reasoning, and problem-solving skills.",
+        "The curriculum of the Software Engineering program covers various aspects of software development, including programming languages, data structures, algorithms, software design, and development methodologies.",
+        "Yes, there are scholarships available for exceptional students applying to the Software Engineering Department. The eligibility criteria and application process can be found on our university's website.",
+        "The Software Engineering program teaches programming languages such as Java, C++, Python, and JavaScript, among others, to equip students with a strong foundation in software development.",
+        "The Software Engineering Department collaborates with various industry partners, providing internship opportunities to students to gain real-world experience and apply their skills in practical settings.",
+        "The Software Engineering Department has a team of highly qualified and experienced faculty members who are dedicated to providing quality education and mentorship to the students.",
+        "Yes, there is a capstone project requirement for Software Engineering students, where they work on a real-world software development project under the guidance of faculty members."
       ]
     },
     {
       "tag": "scholarships",
       "patterns": [
-        "Are there any scholarships available for admitted students?",
-        "Can you provide information about the scholarship programs?",
-        "How can I apply for a scholarship?"
+        "What are the eligibility criteria for the BUSP scholarship?",
+        "Are there any scholarships specifically for international students?",
+        "Can you provide information about the merit-based scholarships?",
+        "Are there any sports scholarships offered at the university?",
+        "How do I renew my scholarship for the next academic year?",
+        "Can students from all academic disciplines apply for scholarships?",
+        "What is the deadline for submitting scholarship applications?",
+        "Are there any need-based scholarships for financially challenged students?",
+        "Do you offer scholarships for students pursuing postgraduate degrees?",
+        "Can scholarship recipients also participate in part-time jobs or internships?"
       ],
       "responses": [
-        "Yes, different scholarships are available for admitted students, including BUSP, HEC, and many other NGO scholarships.",
-        "Certainly! We have several scholarship programs that you can explore. These include government scholarships and NGO scholarships with different eligibility criteria. For further information, you can visit the website.",
-        "To apply for a scholarship, you will need to complete a separate application form and meet the specific requirements of the scholarship program you are interested in."
+        "The eligibility criteria for the BUSP scholarship include maintaining a minimum GPA of 3.5, being a full-time student, and demonstrating outstanding academic performance.",
+        "Yes, there are scholarship opportunities specifically designed for international students. These scholarships may have varying criteria, such as academic excellence, leadership qualities, or contributions to the community.",
+        "Our university offers merit-based scholarships to students who have achieved exceptional academic results. These scholarships aim to recognize and reward academic excellence.",
+        "Yes, the university provides sports scholarships to talented athletes who excel in their respective sports. These scholarships are awarded based on sports achievements and potential.",
+        "To renew your scholarship for the next academic year, you will typically need to maintain the required GPA and fulfill any other specific conditions outlined by the scholarship program.",
+        "Yes, scholarships are open to students from all academic disciplines. Different scholarships may have specific preferences or requirements related to certain fields of study.",
+        "The deadline for submitting scholarship applications may vary depending on the scholarship program. It is essential to check the university's website for specific dates and instructions.",
+        "Yes, there are need-based scholarships available for financially challenged students. These scholarships aim to provide support to those who require financial assistance to pursue their education.",
+        "Absolutely! Scholarships are available for both undergraduate and postgraduate students. Specific scholarship programs may cater to the needs of students at different levels of education.",
+        "While scholarships provide financial support for students' education, many programs allow recipients to engage in part-time jobs or internships to gain practical experience and offset living expenses."
       ]
     },
     {
@@ -150,13 +187,13 @@
     {
       "tag": "transfer_admission",
       "patterns": [
-        "Can I transfer to the Computer Science program from another university?",
+        "Can I transfer to the Software Engineering program from another university?",
         "What are the requirements for transferring to this department?",
         "Is there a separate admission process for transfer students?"
       ],
       "responses": [
-        "Yes, transfer students are welcome to apply to the Computer Science program. The specific requirements for transferring to this department include [list of transfer requirements].",
-        "To transfer to the Computer Science program, you will need to meet certain criteria, such as completing prerequisite courses and meeting the minimum GPA requirement.",
+        "Yes, transfer students are welcome to apply to the Software Engineering program. The specific requirements for transferring to this department include [list of transfer requirements].",
+        "To transfer to the Software Engineering program, you will need to meet certain criteria, such as completing prerequisite courses and meeting the minimum GPA requirement.",
         "There is a separate admission process for transfer students. You will need to submit your academic transcripts, course descriptions, and other relevant documents as part of your application."
       ]
     },
@@ -176,14 +213,55 @@
     {
       "tag": "admission_status",
       "patterns": [
-        "How can I check the status of my admission application?",
-        "When will I receive a decision on my application?",
-        "Can you provide an update on my admission status?"
+        "Is there a specific timeline for receiving admission decisions for the Software Engineering program?",
+        "Can I track the progress of my application through the university's mobile app?",
+        "What should I do if I haven't received any communication regarding my admission status?",
+        "Are there any additional documents required to complete the admission process?",
+        "Is there an application status tracker on the university's website?",
+        "When is the deadline for accepting the admission offer once it's been granted?",
+        "How long does it usually take for the admissions office to respond to admission-related queries?",
+        "Can I appeal the admission decision if my application is initially denied?",
+        "Is there an option to defer my admission to the next academic year?",
+        "What factors are considered in the admission decision-making process?"
       ],
       "responses": [
-        "To check the status of your admission application, you can log in to the university's online application portal and view the updates there. Alternatively, you can contact the admissions office for assistance.",
-        "The time it takes to receive a decision on your application can vary. Once the evaluation process is complete, you will be notified of the admission decision through email or the online application portal.",
-        "I apologize, but as a chatbot, I don't have access to specific admission records. However, you can reach out to the admissions office directly for an update on your admission status."
+        "The timeline for receiving admission decisions for the Software Engineering program may vary depending on the number of applications received. However, the university aims to notify applicants within 2 weeks after the application deadline.",
+        "Yes, the university's mobile app may have a feature to track the progress of your application. You can download the app and log in with your application credentials to check for updates.",
+        "If you haven't received any communication regarding your admission status, it's best to contact the admissions office immediately. They can provide you with the latest information and address any concerns you may have.",
+        "In some cases, additional documents may be required to complete the admission process. If this applies to your application, the admissions office will notify you of the specific documents needed.",
+        "Yes, the university's website may have an application status tracker where you can check the progress of your admission application by entering your application details.",
+        "The deadline for accepting the admission offer varies, and it will be specified in the admission letter. Generally, applicants are given a few weeks to respond and secure their admission.",
+        "The admissions office aims to respond to admission-related queries promptly. You can expect to receive a reply within 5 business days.",
+        "Yes, if your application is initially denied, some universities have an appeal process. You can contact the admissions office to inquire about the appeal procedure and whether it's applicable to your situation.",
+        "Yes, in certain circumstances, applicants may have the option to defer their admission to the next academic year. The process and conditions for deferral can be discussed with the admissions office.",
+        "The admission decision-making process takes into account various factors, including academic qualifications, test scores, letters of recommendation, personal statement, and sometimes interviews. Each application is evaluated holistically to determine the best fit for the program."
+      ]
+    },
+    {
+      "tag": "career_opportunities",
+      "patterns": [
+        "What are the career opportunities available for software engineering graduates?",
+        "Can you tell me about the job prospects for software engineers?",
+        "What types of companies hire software engineering professionals?",
+        "Are there any specialized fields within software engineering that offer unique career paths?",
+        "What skills and qualifications are in demand for software engineering jobs?",
+        "Can you provide information about internships and entry-level positions in software engineering?",
+        "What is the average salary range for software engineers?",
+        "Are there opportunities for software engineers to work remotely or as freelancers?",
+        "Which industries offer the most opportunities for software engineering professionals?",
+        "Can you give examples of successful software engineering career trajectories?"
+      ],
+      "responses": [
+        "Software engineering graduates have diverse career opportunities in various industries. They can work as software developers, systems analysts, quality assurance engineers, database administrators, cybersecurity specialists, and more.",
+        "The job prospects for software engineers are promising due to the increasing reliance on technology in various sectors. Software engineers are in high demand across industries, and the career outlook is projected to be positive.",
+        "Software engineering professionals are sought after by tech companies, software development firms, financial institutions, healthcare organizations, government agencies, and e-commerce companies, among others.",
+        "Software engineering offers numerous specialized fields, including artificial intelligence, machine learning, mobile app development, web development, game development, cybersecurity, and cloud computing, each with its unique career paths.",
+        "In addition to technical skills like programming languages (such as Python, Java, C++, etc.) and software development tools, employers seek software engineers with strong problem-solving abilities, teamwork, communication skills, and adaptability.",
+        "Many companies offer internships and entry-level positions for aspiring software engineers. These opportunities provide valuable hands-on experience and a pathway to permanent roles within the organization.",
+        "The average salary range for software engineers varies based on factors such as experience, location, industry, and job role. Generally, salaries can range from [X] to [Y] per year, with potential for growth with experience and expertise.",
+        "Yes, software engineers often have opportunities to work remotely or as freelancers, especially in the realm of freelance software development, remote tech teams, and consulting roles.",
+        "Software engineering professionals can find employment in a wide range of industries, including technology, finance, healthcare, entertainment, manufacturing, education, and more.",
+        "Successful software engineering career trajectories can lead to roles such as senior software engineer, software architect, technical lead, project manager, Chief Technology Officer (CTO), and even entrepreneurship in establishing their startups or tech ventures."
       ]
     }
   ]
