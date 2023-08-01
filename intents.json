@@ -220,19 +220,87 @@
     {
       "tag": "contact_info",
       "patterns": [
-      "How can I contact the department?",
-      "What is the department's contact information?",
-      "Can you provide me with the department's contact details?",
-      "I need to get in touch with the department. How can I do that?",
-      "What are the ways to contact the department?",
-      "Please give me the contact info for the department."
+        "How can I contact the department?",
+        "What is the department's contact information?",
+        "Can you provide me with the department's contact details?",
+        "I need to get in touch with the department. How can I do that?",
+        "What are the ways to contact the department?",
+        "Please give me the contact info for the department."
       ],
       "responses": [
-      "You can contact the Software Engineering department at: \n\nAddress: 2nd Floor Yousaf Block, Government College University Faisalabad-Main Campus, Allama Iqbal Road, Faisalabad, Pakistan\nPhone: (041) 9203016\nEmail: se@gcuf.edu.pk\nOffice Hours: Monday to Friday, 9:00 AM to 5:00 PM\n\nFor any inquiries or assistance, please feel free to contact the department during the specified office hours.",
-      "You can contact Phone: (041) 9203016\nEmail: se@gcuf.edu.pk\nOffice Hours: Monday to Friday, 9:00 AM to 5:00 PM For any inquiries or assistance, please feel free to contact the department during the specified office hours."
+        "You can contact the Software Engineering department at: \n\nAddress: 2nd Floor Yousaf Block, Government College University Faisalabad-Main Campus, Allama Iqbal Road, Faisalabad, Pakistan\nPhone: (041) 9203016\nEmail: se@gcuf.edu.pk\nOffice Hours: Monday to Friday, 9:00 AM to 5:00 PM\n\nFor any inquiries or assistance, please feel free to contact the department during the specified office hours.",
+        "You can contact Phone: (041) 9203016\nEmail: se@gcuf.edu.pk\nOffice Hours: Monday to Friday, 9:00 AM to 5:00 PM For any inquiries or assistance, please feel free to contact the department during the specified office hours."
       ]
-      }
-    ,
+    },
+    {
+      "tag": "programs_offered",
+      "patterns": [
+        "What BS programs does GCUF SE offer?",
+        "Tell me about the BSSE programs in GCUF.",
+        "Can you provide information about BSSE programs at GCUF?",
+        "What MS programs are available at GCUF SE?",
+        "Tell me about the MS programs in GCUF SE.",
+        "Can you provide information about MS programs at GCUF SE?",
+        "Which BS programs are offered in the Software Engineering department?",
+        "Tell me about the BS programs in the Software Engineering department.",
+        "Can you provide information about BS programs in Software Engineering at GCUF?",
+        "Which MS programs are offered in the Software Engineering department?",
+        "Tell me about the MS programs in the Software Engineering department.",
+        "Can you provide information about MS programs in Software Engineering at GCUF?"
+      ],
+      "responses": [
+        "GCUF offers a wide range of undergraduate (BS) and postgraduate (MS) programs in various disciplines.\n\nFor the Software Engineering department, the following programs are offered:\n\nBS Software Engineering\nMS Software Engineering.\n\nIf you need more information about any specific program, feel free to ask!",
+        "For the Software Engineering department, the following programs are offered: BS Software Engineering MS Software"
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure for BS morning program?",
+        "Tell me about the per-semester fee for BS morning program.",
+        "How much is the fee for the BS morning program?",
+        "What is the fee structure for BS evening program?",
+        "Tell me about the per-semester fee for BS evening program.",
+        "How much is the fee for the BS evening program?",
+        "What is the fee structure for MS morning program?",
+        "Tell me about the per-semester fee for MS morning program.",
+        "How much is the fee for the MS morning program?",
+        "What is the fee structure for MS evening program?",
+        "Tell me about the per-semester fee for MS evening program.",
+        "How much is the fee for the MS evening program?"
+      ],
+      "responses": [
+        "The fee structure for BS morning program is approximately 50,000 PKR and evening program is approximately 62,000 PKR per semester.",
+        "The fee structure for MS morning program is also around 60,000 PKR and MS evening program, the fee is approximately 72,000 PKR per semester.",
+        "For the self or bench fee option in BS or MS evening program, an additional 25,000 PKR is added to the basic fee.",
+        "Please note that these figures are approximate and subject to change. For the most accurate and up-to-date information, it is advised to contact the university's finance department."
+      ]
+    },
+    {
+      "tag": "last_year_merit",
+      "patterns": [
+        "What was the merit for last year?",
+        "What was the closing percentage for last year?",
+        "Tell me about last year's merit",
+        "What was the merit of the previous year?",
+        "What was the last year's closing merit?"
+      ],
+      "responses": [
+        "The closing merit for last year was 77.27%."
+      ]
+    },
+    {
+      "tag": "seat_information",
+      "patterns": [
+        "How many seats are available on merit in the morning and evening sessions?",
+        "Tell me about the seats on merit for morning and evening.",
+        "What is the number of seats on merit in the morning and evening?"
+      ],
+      "responses": [
+        "In both the morning and evening sessions, there are approximately 50-60 seats available on merit.",
+        "For each session (morning and evening), 50-60 seats are available on merit, and 10 seats are available for self or bench fee."
+      ]
+    },
     {
       "tag": "BS_software_engineering",
       "patterns": [
@@ -276,7 +344,6 @@
         "In a typical semester, students generally take around 5-6 courses, with each course carrying a specific credit weightage depending on its complexity and workload."
       ]
     },
-   
     {
       "tag": "scholarships",
       "patterns": [
