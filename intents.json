@@ -16,7 +16,19 @@
         "What's up",
         "Morning",
         "Afternoon",
-        "Yo"
+        "Yo",
+        "Hi Bot",
+        "Hello Bot",
+        "Hey Bot",
+        "Hi there Bot",
+        "Hello there Bot",
+        "Hey there Bot",
+        "Hy GCUF SE Bot",
+        "Hy GCUF SE Chatbot",
+        "Hy GCUF SE Chat Bot",
+        "Hey GCUF SE Chatbot",
+        "Hey GCUF SE Chat Bot",
+        "Hello GCUF SE Chatbot"
       ],
       "responses": [
         "Hello! How can I assist you today?",
@@ -57,7 +69,12 @@
         "Take care",
         "Catch you later",
         "Till we meet again",
-        "Bye-bye"
+        "Bye-bye",
+        "Good by SE Bot",
+        "Goodbye SE Bot",
+        "Bye SE Bot",
+        "See you later SE Bot",
+        "Take care SE Bot"
       ],
       "responses": [
         "Goodbye! Have a great day!",
@@ -79,7 +96,10 @@
         "Jazakumullah Khair",
         "Thanks for your help",
         "Thanks for the assistance",
-        "Thanks for the guidance"
+        "Thanks for the guidance",
+        "Thank SE Bot",
+        "Thanks SE Bot",
+        "Thank you SE Bot"
       ],
       "responses": [
         "You're welcome! It's my pleasure to help.",
@@ -91,6 +111,61 @@
         "You're welcome! I'm here to help whenever you need it.",
         "You're welcome! If there's anything else I can do for you, just let me know.",
         "You're welcome! If you have more questions in the future, I'll be here to answer them."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "I'm stuck, can you assist?",
+        "Help me with something",
+        "I Need Help Regargind Addmissions",
+        "I have a question, can you help?",
+        "Can you provide guidance?",
+        "Can you offer some help?",
+        "I'm confused, can you guide me?",
+        "Looking for support, can you assist?",
+        "Please help me",
+        "Can you help me SE Bot",
+        "I need assistance SE Bot"
+      ],
+      "responses": [
+        "Of course! I'm here to help. What do you need assistance with?",
+        "Certainly! Please let me know how I can assist you.",
+        "I'd be happy to help. What do you need assistance with?",
+        "Sure! I'm here to assist you. How can I help?",
+        "Absolutely! I'm here to provide guidance on admissions. What specific information do you require?",
+        "Sure, I can assist with admissions. Please let me know what you need help with.",
+        "No problem! I'm here to help with admissions. What can I assist you with?",
+        "I'm here to assist you with admissions-related inquiries. How may I be of help?",
+        "Of course, I can provide guidance. Please share your questions or concerns.",
+        "I'm here to offer support. Let me know what you need assistance with.",
+        "Don't worry, I can help you with any questions you have. Feel free to ask."
+      ]
+    },
+    {
+      "tag": "department_information",
+      "patterns": [
+        "Tell me about the department",
+        "Tell me about the software or SE department",
+        "What is the department all about?",
+        "What is the software or SE department all about?",
+        "Can you provide information about the department?",
+        "Can you provide information about the software or SE department?",
+        "I want to know more about the department",
+        "I want to know more about the software or SE department",
+        "What is the location of the department?",
+        "What is the location of the software or SE department?",
+        "Can you provide details about the department?",
+        "Can you provide details about the software or SE department?"
+      ],
+      "responses": [
+        "The Software department is located in Yousuf Block Old Campus Faisalabad, providing an ideal atmosphere for learning.",
+        "The Software Engineering department offers various undergraduate and postgraduate programs in software engineering.",
+        "Our department is dedicated to providing quality education and cutting-edge research in software engineering.",
+        "The campus is conveniently located in Yousuf Block Old Campus Faisalabad with easy access to public transportation.",
+        "The Software department is equipped with modern classrooms, computer labs, and interactive learning spaces, providing a conducive environment for students to excel in their studies."
       ]
     },
     {
@@ -107,22 +182,6 @@
         "Sure! The BS Software Engineering program is a 4-year course consisting of 8 semesters.",
         "The BS Software Engineering program is designed to be completed in 4 years, with a total of 8 semesters.",
         "Yes, 4 years is the standard duration for the BS Software Engineering program, which includes 8 semesters."
-      ]
-    },
-    {
-      "tag": "help",
-      "patterns": [
-        "Can you help me?",
-        "I need assistance",
-        "I'm stuck, can you assist?",
-        "Help me with something",
-        "I Need Help Regargind Addmissions"
-      ],
-      "responses": [
-        "Of course! I'm here to help. What do you need assistance with?",
-        "Certainly! Please let me know how I can assist you.",
-        "I'd be happy to help. What do you need assistance with?",
-        "Sure! I'm here to assist you. How can I help?"
       ]
     },
     {
