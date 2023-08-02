@@ -7,14 +7,57 @@
         "Hi",
         "Hey there",
         "Good morning",
-        "Good afternoon"
+        "Good afternoon",
+        "Hi there",
+        "Greetings",
+        "Howdy",
+        "Hey",
+        "Hiya",
+        "What's up",
+        "Morning",
+        "Afternoon",
+        "Yo",
+        "Hi Bot",
+        "Hello Bot",
+        "Hey Bot",
+        "Hi there Bot",
+        "Hello there Bot",
+        "Hey there Bot",
+        "Hy GCUF SE Bot",
+        "Hy GCUF SE Chatbot",
+        "Hy GCUF SE Chat Bot",
+        "Hey GCUF SE Chatbot",
+        "Hey GCUF SE Chat Bot",
+        "Hello GCUF SE Chatbot"
       ],
       "responses": [
         "Hello! How can I assist you today?",
         "Hi! How can I help you?",
         "Hey there! How may I assist you?",
-        "Good morning! How can I be of service?",
-        "Good afternoon! How may I assist you today?"
+        "Hi there! What can I do for you?",
+        "Greetings! How may I be of help?",
+        "Howdy! How can I assist you today?",
+        "Hey! How can I help you?",
+        "Hiya! How may I assist you?",
+        "What's up? How can I be of service?",
+        "Good morning! Is there anything I can assist you with?",
+        "Good afternoon! How may I help you?",
+        "Yo! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "salam",
+      "patterns": [
+        "AoA",
+        "AOA",
+        "Assalam o Alikum",
+        "Assalam u Alikum",
+        "Salam"
+      ],
+      "responses": [
+        "Walikum u salam! How can I help you?",
+        "Wao! How can I assist you today?",
+        "WAO! How can I assist you today?"
       ]
     },
     {
@@ -23,13 +66,22 @@
         "Goodbye",
         "Bye",
         "See you later",
-        "Take care"
+        "Take care",
+        "Catch you later",
+        "Till we meet again",
+        "Bye-bye",
+        "Good by SE Bot",
+        "Goodbye SE Bot",
+        "Bye SE Bot",
+        "See you later SE Bot",
+        "Take care SE Bot"
       ],
       "responses": [
         "Goodbye! Have a great day!",
         "Bye! Take care and have a wonderful day!",
         "See you later! If you need any further assistance, feel free to ask.",
-        "Take care! Feel free to reach out if you have any more questions."
+        "Take care! Feel free to reach out if you have any more questions.",
+        "Bye-bye! If you ever require help, feel free to reach out."
       ]
     },
     {
@@ -38,13 +90,27 @@
         "Thank you",
         "Thanks",
         "Appreciate it",
-        "Thanks a lot"
+        "Thanks a lot",
+        "Jazakallah",
+        "Jazakallah Khair",
+        "Jazakumullah Khair",
+        "Thanks for your help",
+        "Thanks for the assistance",
+        "Thanks for the guidance",
+        "Thank SE Bot",
+        "Thanks SE Bot",
+        "Thank you SE Bot"
       ],
       "responses": [
         "You're welcome! It's my pleasure to help.",
         "You're welcome! If you need any more assistance, feel free to ask.",
         "You're welcome! I'm here to assist you.",
-        "No problem! Let me know if there's anything else I can help with."
+        "No problem! Let me know if there's anything else I can help with.",
+        "You're welcome! It's my pleasure to be of assistance.",
+        "You're welcome! If there's anything specific you need, feel free to ask.",
+        "You're welcome! I'm here to help whenever you need it.",
+        "You're welcome! If there's anything else I can do for you, just let me know.",
+        "You're welcome! If you have more questions in the future, I'll be here to answer them."
       ]
     },
     {
@@ -54,121 +120,275 @@
         "I need assistance",
         "I'm stuck, can you assist?",
         "Help me with something",
-        "I Need Help Regargind Addmissions"
+        "I Need Help Regargind Addmissions",
+        "I have a question, can you help?",
+        "Can you provide guidance?",
+        "Can you offer some help?",
+        "I'm confused, can you guide me?",
+        "Looking for support, can you assist?",
+        "Please help me",
+        "Can you help me SE Bot",
+        "I need assistance SE Bot"
       ],
       "responses": [
         "Of course! I'm here to help. What do you need assistance with?",
         "Certainly! Please let me know how I can assist you.",
         "I'd be happy to help. What do you need assistance with?",
-        "Sure! I'm here to assist you. How can I help?"
+        "Sure! I'm here to assist you. How can I help?",
+        "Absolutely! I'm here to provide guidance on admissions. What specific information do you require?",
+        "Sure, I can assist with admissions. Please let me know what you need help with.",
+        "No problem! I'm here to help with admissions. What can I assist you with?",
+        "I'm here to assist you with admissions-related inquiries. How may I be of help?",
+        "Of course, I can provide guidance. Please share your questions or concerns.",
+        "I'm here to offer support. Let me know what you need assistance with.",
+        "Don't worry, I can help you with any questions you have. Feel free to ask."
       ]
     },
     {
-      "tag": "course_info",
+      "tag": "department_information",
       "patterns": [
-        "Can you tell me about the advanced-level courses available in the Software Engineering program?",
-        "Are there any specialized elective courses for Software Engineering students?",
-        "What are the prerequisites for enrolling in the Artificial Intelligence course?",
-        "Is there a course that focuses on software project management in the Software Engineering program?",
-        "Do you offer any hands-on practical courses, such as software development labs?",
-        "Can you provide a brief overview of the Object-Oriented Programming (OOP) course content?",
-        "Are there any internship or industry attachment programs as part of the curriculum?",
-        "Which courses have a strong focus on cybersecurity and software vulnerabilities?",
-        "Can students propose and undertake independent study projects as part of their coursework?",
-        "What is the typical workload and credit distribution for courses in a semester?"
+        "Tell me about the department",
+        "Tell me about the software or SE department",
+        "What is the department all about?",
+        "What is the software or SE department all about?",
+        "Can you provide information about the department?",
+        "Can you provide information about the software or SE department?",
+        "I want to know more about the department",
+        "I want to know more about the software or SE department",
+        "What is the location of the department?",
+        "What is the location of the software or SE department?",
+        "Can you provide details about the department?",
+        "Can you provide details about the software or SE department?"
       ],
       "responses": [
-        "The advanced-level courses in the Software Engineering program cover topics such as Advanced Software Development, Software Architecture, Cloud Computing, Machine Learning, and Cybersecurity, among others.",
-        "Yes, the Software Engineering Department offers a range of specialized elective courses, allowing students to delve deeper into areas like Mobile App Development, Game Development, DevOps, and Big Data Analytics.",
-        "The Artificial Intelligence course has the prerequisite of completing the Data Structures and Algorithms course to ensure students have the necessary programming and problem-solving skills.",
-        "Yes, the Software Engineering program includes a dedicated course on software project management, which focuses on planning, organizing, and executing software development projects effectively.",
-        "Absolutely! The Software Engineering program incorporates hands-on practical courses, including software development labs, to provide students with practical experience in applying theoretical concepts.",
-        "The Object-Oriented Programming (OOP) course covers the fundamentals of object-oriented programming, classes, inheritance, polymorphism, and designing object-oriented solutions to real-world problems.",
-        "Yes, the Software Engineering Department facilitates internships and industry attachment programs to give students valuable industry exposure and a chance to work on real-world projects.",
-        "Courses like Software Quality Assurance (SQA) and Software Reliability Engineering (SRE) have a strong focus on cybersecurity, ensuring that students understand software vulnerabilities and methods to enhance security.",
-        "Yes, students have the opportunity to propose and undertake independent study projects as part of their coursework, under the guidance of faculty members.",
-        "In a typical semester, students generally take around 5-6 courses, with each course carrying a specific credit weightage depending on its complexity and workload."
+        "The Software department is located in Yousuf Block Old Campus Faisalabad, providing an ideal atmosphere for learning.",
+        "The Software Engineering department offers various undergraduate and postgraduate programs in software engineering.",
+        "Our department is dedicated to providing quality education and cutting-edge research in software engineering.",
+        "The campus is conveniently located in Yousuf Block Old Campus Faisalabad with easy access to public transportation.",
+        "The Software department is equipped with modern classrooms, computer labs, and interactive learning spaces, providing a conducive environment for students to excel in their studies."
       ]
     },
     {
       "tag": "faculty_info",
       "patterns": [
-        "What are the qualifications and expertise of the faculty members in the Software Engineering Department?",
-        "Do the faculty members have industry experience in addition to their academic qualifications?",
-        "Are there any renowned professors or researchers in the Software Engineering Department?",
-        "How is the faculty-to-student ratio maintained in the Software Engineering program?",
-        "Can you tell me about the research areas of the faculty members in the Software Engineering Department?",
-        "Are there any guest lectures or workshops conducted by industry experts for Software Engineering students?",
-        "What initiatives does the department take to ensure continuous professional development of its faculty members?",
-        "Can students consult faculty members outside of regular office hours?",
-        "Is there a faculty advisor system for guiding students in their academic and career choices?",
-        "Are the faculty members approachable and supportive of student queries and concerns?"
+        "Tell me about the faculty",
+        "What qualifications do the faculty members have?",
+        "Can you provide information about the faculty?",
+        "I want to know about the faculty members",
+        "Who are the faculty members in the Software Engineering department?",
+        "Tell me about the professors in the department",
+        "What are the names of the faculty members?",
+        "Who are the lecturers in the Software Engineering department?",
+        "Can you provide email of the faculty members?",
+        "gmail or email of the faculty members?"
       ],
       "responses": [
-        "The faculty members in the Software Engineering Department possess highly qualified academic backgrounds, with many holding doctoral degrees from reputable universities. They have expertise in various areas of software engineering and related disciplines.",
-        "Yes, in addition to their academic qualifications, several faculty members in the Software Engineering Department have significant industry experience. This blend of academic and practical knowledge enriches the learning experience for students.",
-        "The Software Engineering Department is proud to have renowned professors and researchers who have made significant contributions to the field of software engineering. Their presence fosters a dynamic learning environment for our students.",
-        "The department maintains a favorable faculty-to-student ratio to ensure that students receive personalized attention and guidance in their academic pursuits.",
-        "The faculty members in the Software Engineering Department are actively involved in various research areas, such as software development methodologies, artificial intelligence, cybersecurity, and software testing, among others.",
-        "Yes, the Software Engineering Department frequently arranges guest lectures and workshops conducted by industry experts to provide students with insights into the latest industry trends and practices.",
-        "To enhance their skills and knowledge, the department encourages faculty members to participate in workshops, conferences, and training programs. This ensures that they stay up-to-date with the latest advancements in their respective fields.",
-        "Yes, faculty members in the Software Engineering Department often hold regular office hours during which students can consult them for academic assistance, project guidance, or general inquiries.",
-        "The department operates a faculty advisor system to guide students throughout their academic journey, offering advice on course selection, career options, and personal development.",
-        "Absolutely! The faculty members in the Software Engineering Department are known for being approachable, friendly, and supportive of student queries and concerns. They are committed to helping students succeed in their academic and professional endeavors."
+        "Sure! Here is the information about the faculty members in the Software Engineering department:\n\nName List:\n1. Dr. Muhammad Awais\n2. Dr. Khurram Zeeshan Haider\n3. Dr. Muhammad Sheraz Malik\n4. Dr. M. Yahya Saeed\n5. Engr. Adeel Rifaat Mirza\n6. Nauman-ul-haq\n7. Usama Ahmed\n8. Zubair Nabi",
+        "Sure! faculty members in the Software Engineering department:\n\nName List:\n1. Dr. Muhammad Awais - Chairman / Associate Professor\n2. Dr. Khurram Zeeshan Haider - Assistant Professor\n3. Dr. Muhammad Sheraz Malik - Associate Professor\n4. Dr. M. Yahya Saeed - Lecturer\n5. Engr. Adeel Rifaat Mirza - Lecturer\n6. Nauman-ul-haq - Lecturer\n7. Usama Ahmed - Assistant Professor\n8. Zubair Nabi - Lab Engineer",
+        "Here are the email addresses of the faculty members in the Software Engineering department:\n\n1. Dr. Muhammad Awais - awais_java@yahoo.com\n2. Dr. Khurram Zeeshan Haider - haider_25@hotmail.com\n3. Dr. Muhammad Sheraz Malik - sheraz_awan@gcuf.edu.pk\n4. Dr. M. Yahya Saeed - m_yahya_saeed@yahoo.com\n5. Engr. Adeel Rifaat Mirza - adeel.mirza@gcuf.edu.pk\n6. Nauman-ul-haq - nauman315@gmail.com\n7. Usama Ahmed - usamaahmed@hotmail.com\n8. Zubair Nabi - zubair.nabi@yahoo.com"
       ]
     },
     {
-      "tag": "admission_info",
+      "tag": "admission_process",
       "patterns": [
-        "How can I apply for admission to the Software Engineering program?",
-        "What are the admission requirements for the Software Engineering Department?",
-        "What documents do I need to submit for the Software Engineering program application?",
-        "Is there any specific entrance exam for the Software Engineering program?",
-        "Can you provide information about the curriculum of the Software Engineering program?",
-        "Are there any scholarships available for students applying to the Software Engineering Department?",
-        "What programming languages are taught in the Software Engineering program?",
-        "Are there any internship opportunities for Software Engineering students?",
-        "Can you tell me about the faculty members in the Software Engineering Department?",
-        "Is there a capstone project or thesis requirement for Software Engineering students?"
+        "How to apply for GCUF Admission?",
+        "GCUF Admission process",
+        "GCUF Admission procedure",
+        "Admission procedure",
+        "Steps to apply for GCUF Admission",
+        "What are the steps for GCUF Admission?",
+        "What are the steps for software Admission?"
       ],
       "responses": [
         "To apply for admission to the Software Engineering program, please visit our university's website and follow the application process outlined for the Department of Software Engineering.",
-        "The admission requirements for the Software Engineering Department include completing FSc Pre-Engineering or Medical and ICS (Mathematics, Physics, Computer) with a minimum percentage of 50.",
-        "For the application to the Software Engineering program, you will need to submit documents such as a hard copy of the application form, your domicile certificate, and the latest academic transcripts.",
-        "Yes, there is a specific entrance exam for the Software Engineering program. The exam evaluates your aptitude in programming, logical reasoning, and problem-solving skills.",
-        "The curriculum of the Software Engineering program covers various aspects of software development, including programming languages, data structures, algorithms, software design, and development methodologies.",
-        "Yes, there are scholarships available for exceptional students applying to the Software Engineering Department. The eligibility criteria and application process can be found on our university's website.",
-        "The Software Engineering program teaches programming languages such as Java, C++, Python, and JavaScript, among others, to equip students with a strong foundation in software development.",
-        "The Software Engineering Department collaborates with various industry partners, providing internship opportunities to students to gain real-world experience and apply their skills in practical settings.",
-        "The Software Engineering Department has a team of highly qualified and experienced faculty members who are dedicated to providing quality education and mentorship to the students.",
-        "Yes, there is a capstone project requirement for Software Engineering students, where they work on a real-world software development project under the guidance of faculty members."
+        "Apply Online at : https://admissions.gcuf.edu.pk/login.php. 1: Create Admission Account. 2: Login to Admission Portal. 3: Check Personal Information.4: Upload Photograph.5: Add Academic Details.6: Add Entry Test Details (if required).7: Select Program(s).8: Proofreading and Application Finalization.9: Fee Voucher."
+      ]
+    },
+    {
+      "tag": "admission_required_documents",
+      "patterns": [
+        "What documents are required for admission?",
+        "List of required documents for GCUF admission",
+        "Which documents do I need for applying to GCUF?",
+        "Can you tell me the documents needed for GCUF admission?",
+        "What are the necessary documents for GCUF admission?"
+      ],
+      "responses": [
+        "To apply for admission, you need to submit the following documents, each in 2 copies, attested by a government official:\n\n1. Copies of Academic Documents (Matric, FSc)\n2. Copies of ID Card (Student CNIC)\n3. Copies of BA Form (Bachelor's Degree)\n4. Copies of Domicile (2 copies)\n5. 4 Passport-sized Photographs\n6. Copies of Father's CNIC (2 copies)\n7. Admission Fee Voucher (2 copies)\n8. Admission Form (2 copies)\n9. File Cover (2 copies)\n\nAll documents must be submitted to the department in two sets.\n\nPlease ensure that all documents are properly attested by a government official before submission."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact the department?",
+        "What is the department's contact information?",
+        "Can you provide me with the department's contact details?",
+        "I need to get in touch with the department. How can I do that?",
+        "What are the ways to contact the department?",
+        "Please give me the contact info for the department."
+      ],
+      "responses": [
+        "You can contact the Software Engineering department at: \n\nAddress: 2nd Floor Yousaf Block, Government College University Faisalabad-Main Campus, Allama Iqbal Road, Faisalabad, Pakistan\nPhone: (041) 9203016\nEmail: se@gcuf.edu.pk\nOffice Hours: Monday to Friday, 9:00 AM to 5:00 PM\n\nFor any inquiries or assistance, please feel free to contact the department during the specified office hours.",
+        "You can contact Phone: (041) 9203016\nEmail: se@gcuf.edu.pk\nOffice Hours: Monday to Friday, 9:00 AM to 5:00 PM For any inquiries or assistance, please feel free to contact the department during the specified office hours."
+      ]
+    },
+    {
+      "tag": "programs_offered",
+      "patterns": [
+        "What BS programs does GCUF SE offer?",
+        "Tell me about the BSSE programs in GCUF.",
+        "Can you provide information about BSSE programs at GCUF?",
+        "What MS programs are available at GCUF SE?",
+        "Tell me about the MS programs in GCUF SE.",
+        "Can you provide information about MS programs at GCUF SE?",
+        "Which BS programs are offered in the Software Engineering department?",
+        "Tell me about the BS programs in the Software Engineering department.",
+        "Can you provide information about BS programs in Software Engineering at GCUF?",
+        "Which MS programs are offered in the Software Engineering department?",
+        "Tell me about the MS programs in the Software Engineering department.",
+        "Can you provide information about MS programs in Software Engineering at GCUF?"
+      ],
+      "responses": [
+        "GCUF offers a wide range of undergraduate (BS) and postgraduate (MS) programs in various disciplines.\n\nFor the Software Engineering department, the following programs are offered:\n\nBS Software Engineering\nMS Software Engineering.\n\nIf you need more information about any specific program, feel free to ask!",
+        "For the Software Engineering department, the following programs are offered: BS Software Engineering MS Software"
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure for BS morning program?",
+        "Tell me about the per-semester fee for BS morning program.",
+        "How much is the fee for the BS morning program?",
+        "What is the fee structure for BS evening program?",
+        "Tell me about the per-semester fee for BS evening program.",
+        "How much is the fee for the BS evening program?",
+        "What is the fee structure for MS morning program?",
+        "Tell me about the per-semester fee for MS morning program.",
+        "How much is the fee for the MS morning program?",
+        "What is the fee structure for MS evening program?",
+        "Tell me about the per-semester fee for MS evening program.",
+        "How much is the fee for the MS evening program?"
+      ],
+      "responses": [
+        "The fee structure for BS morning program is approximately 50,000 PKR and evening program is approximately 62,000 PKR per semester.",
+        "The fee structure for MS morning program is also around 60,000 PKR and MS evening program, the fee is approximately 72,000 PKR per semester.",
+        "For the self or bench fee option in BS or MS evening program, an additional 25,000 PKR is added to the basic fee.",
+        "Please note that these figures are approximate and subject to change. For the most accurate and up-to-date information, it is advised to contact the university's finance department."
+      ]
+    },
+    {
+      "tag": "last_year_merit",
+      "patterns": [
+        "What was the merit for last year?",
+        "What was the closing percentage for last year?",
+        "Tell me about last year's merit",
+        "What was the merit of the previous year?",
+        "What was the last year's closing merit?"
+      ],
+      "responses": [
+        "The closing merit for last year was 77.27%."
+      ]
+    },
+    {
+      "tag": "seat_information",
+      "patterns": [
+        "How many seats are available on merit in the morning and evening sessions?",
+        "Tell me about the seats on merit for morning and evening.",
+        "What is the number of seats on merit in the morning and evening?"
+      ],
+      "responses": [
+        "In both the morning and evening sessions, there are approximately 50-60 seats available on merit.",
+        "For each session (morning and evening), 50-60 seats are available on merit, and 10 seats are available for self or bench fee."
+      ]
+    },
+    {
+      "tag": "eligibility_for_admission",
+      "patterns": [
+        "What are the eligibility criteria for admission?",
+        "Tell me about the admission requirements",
+        "What are the qualifications needed for admission?",
+        "Can you provide information about the eligibility for admission?",
+        "What are the eligibility criteria for admission in Software Engineering?",
+        "Tell me about the admission requirements for Software Engineering",
+        "What are the qualifications needed for admission in Software Engineering?",
+        "Can you provide information about the eligibility for admission in Software Engineering?"
+      ],
+      "responses": [
+        "To be eligible for admission, applicants must meet the following criteria:\n1. For undergraduate programs (BS), candidates should have completed their intermediate education (e.g., FSc, ICS, ICOM) with a minimum of 50% marks from a recognized board.\n2. For postgraduate programs (MS), candidates should have a relevant bachelor's degree with a minimum CGPA of 2.5 or 50% marks from a recognized university.\n3. Entry test results may also be required for certain programs."
+      ]
+    },
+    {
+      "tag": "medical_student_eligibility",
+      "patterns": [
+        "Medical student eligibility in Software Engineering",
+        "Can a medical student apply for Software Engineering?",
+        "Is Software Engineering open to medical students?",
+        "What are the eligibility criteria for medical students in Software Engineering?"
+      ],
+      "responses": [
+        "Yes but  you need to meet the following criteria: 1- FSc Pre-Medical) with a minimum of 60% marks 2- Math Requirements such as Math 1, Math 2, or Calculus  "
       ]
     },
     {
       "tag": "scholarships",
       "patterns": [
-        "What are the eligibility criteria for the BUSP scholarship?",
-        "Are there any scholarships specifically for international students?",
-        "Can you provide information about the merit-based scholarships?",
-        "Are there any sports scholarships offered at the university?",
-        "How do I renew my scholarship for the next academic year?",
-        "Can students from all academic disciplines apply for scholarships?",
-        "What is the deadline for submitting scholarship applications?",
-        "Are there any need-based scholarships for financially challenged students?",
-        "Do you offer scholarships for students pursuing postgraduate degrees?",
-        "Can scholarship recipients also participate in part-time jobs or internships?"
+        "Tell me about scholarships for Software Engineering students",
+        "What scholarships are available for Software Engineering students?",
+        "Can you provide information about financial aid and scholarships?",
+        "I want to know about scholarships at GCUF for Software Engineering.",
+        "Are there any scholarships for Software Engineering students?"
       ],
       "responses": [
-        "The eligibility criteria for the BUSP scholarship include maintaining a minimum GPA of 3.5, being a full-time student, and demonstrating outstanding academic performance.",
-        "Yes, there are scholarship opportunities specifically designed for international students. These scholarships may have varying criteria, such as academic excellence, leadership qualities, or contributions to the community.",
-        "Our university offers merit-based scholarships to students who have achieved exceptional academic results. These scholarships aim to recognize and reward academic excellence.",
-        "Yes, the university provides sports scholarships to talented athletes who excel in their respective sports. These scholarships are awarded based on sports achievements and potential.",
-        "To renew your scholarship for the next academic year, you will typically need to maintain the required GPA and fulfill any other specific conditions outlined by the scholarship program.",
-        "Yes, scholarships are open to students from all academic disciplines. Different scholarships may have specific preferences or requirements related to certain fields of study.",
-        "The deadline for submitting scholarship applications may vary depending on the scholarship program. It is essential to check the university's website for specific dates and instructions.",
-        "Yes, there are need-based scholarships available for financially challenged students. These scholarships aim to provide support to those who require financial assistance to pursue their education.",
-        "Absolutely! Scholarships are available for both undergraduate and postgraduate students. Specific scholarship programs may cater to the needs of students at different levels of education.",
-        "While scholarships provide financial support for students' education, many programs allow recipients to engage in part-time jobs or internships to gain practical experience and offset living expenses."
+        "There are various scholarships available for Software Engineering students, including merit-based scholarships, need-based scholarships, and scholarships for students with disabilities. For more information, please visit the university's website or contact the financial aid office.",
+        "1. Ehsaas Scholarship: Government-funded scholarship for deserving students.\n2. HEC Need-Based Scholarship: Supports financially needy students.\n3. Zakat Fund Scholarship: Provides assistance to eligible Zakat recipients.\nVarious other scholarships are available throughout the year. Contact the Financial Aid Office for more information."
+      ]
+    },
+    {
+      "tag": "admission_dates",
+      "patterns": [
+        "When do admissions open for Fall 2023?",
+        "What are the admission dates for Fall 2023?",
+        "Can you tell me the last date to apply for Fall 2023 admissions?",
+        "I want to know about the admission process for Fall 2023.",
+        "Where can I apply for Fall 2023 admissions?"
+      ],
+      "responses": [
+        "Admissions for Fall 2023 are now open. The last date to apply is 10th August 2023. You can apply online at https://admissions.gcuf.edu.pk/login.php. For more information, you can contact the Admission Office / Information Cell at 041-9201552 or send an email to admissions@gcuf.edu.pk."
+      ]
+    },
+    {
+      "tag": "BS_software_engineering",
+      "patterns": [
+        "Can you tell me about the BS Software Engineering program?",
+        "How long is the duration of the BS Software Engineering program?",
+        "I'm interested in the BS Software Engineering program; can you give me some details about it?",
+        "Are you able to share insights into what the BS Software Engineering program entails?",
+        "Tell me about the BS Software Engineering program.",
+        "What is the scheme of studies for BS Software Engineering?",
+        "Can you provide information about the majors in the BS Software Engineering program?",
+        "What are the major courses in the BS Software Engineering program?",
+        "I want to know about the curriculum of BS Software Engineering."
+      ],
+      "responses": [
+        "The BS Software Engineering program is a 4-year undergraduate degree program. The scheme of studies includes various major courses related to software engineering such as Software Design and Architecture, Object-Oriented Programming, Web Development, Database Systems, Operating Systems, and Software Project Management. Students will also study general education courses to develop a well-rounded skillset.",
+        "The BS Software Engineering program is a 4-year undergraduate degree that spans across 8 semesters.",
+        "The BS Software Engineering program typically takes 4 years to complete, divided into 8 semesters.",
+        "Sure! The BS Software Engineering program is a 4-year course consisting of 8 semesters.",
+        "The BS Software Engineering program is designed to be completed in 4 years, with a total of 8 semesters.",
+        "Yes, 4 years is the standard duration for the BS Software Engineering program, which includes 8 semesters."
+      ]
+    },
+    {
+      "tag": "MS_software_engineering",
+      "patterns": [
+        "Tell me about the MS Software Engineering program.",
+        "What is the curriculum of MS Software Engineering?",
+        "Can you provide information about the majors in the MS Software Engineering program?",
+        "What are the major courses in the MS Software Engineering program?",
+        "I want to know about the MS Software Engineering degree."
+      ],
+      "responses": [
+        "The MS Software Engineering program is a postgraduate degree program that typically spans over 1.5 to 2 years.The program includes advanced courses such as Advanced Software Design and Architecture, Software Testing and Quality Assurance, Software Project Management, Artificial Intelligence, Data Science, and Emerging Trends in Software Engineering. Students may also have the option to choose a specialization based on their interests and career goals."
       ]
     },
     {
@@ -176,7 +396,12 @@
       "patterns": [
         "Is there any financial aid or assistance provided?",
         "What options are available for financial support?",
-        "Can you guide me on obtaining financial aid?"
+        "Can you guide me on obtaining financial aid?",
+        "Tell me about financial aid options at GCUF",
+        "What financial assistance is available for students?",
+        "Can you provide information about scholarships and financial aid?",
+        "I need help with the cost of education. Are there any financial aid programs?",
+        "What are the financial support opportunities for students?"
       ],
       "responses": [
         "Yes, the university provides financial aid and assistance to eligible students. This includes grants, loans, work-study programs, and other forms of support.",
@@ -185,84 +410,81 @@
       ]
     },
     {
-      "tag": "transfer_admission",
-      "patterns": [
-        "Can I transfer to the Software Engineering program from another university?",
-        "What are the requirements for transferring to this department?",
-        "Is there a separate admission process for transfer students?"
-      ],
-      "responses": [
-        "Yes, transfer students are welcome to apply to the Software Engineering program. The specific requirements for transferring to this department include [list of transfer requirements].",
-        "To transfer to the Software Engineering program, you will need to meet certain criteria, such as completing prerequisite courses and meeting the minimum GPA requirement.",
-        "There is a separate admission process for transfer students. You will need to submit your academic transcripts, course descriptions, and other relevant documents as part of your application."
-      ]
-    },
-    {
       "tag": "admission_interview",
       "patterns": [
         "Do I need to appear for an admission interview?",
         "Will there be an interview as part of the admission process?",
-        "How can I prepare for the admission interview?"
+        "How can I prepare for the admission interview?",
+        "Is there an admission interview for the BS program?",
+        "Do I need to appear for an interview for BS admission?",
+        "Are there admission interviews for BS candidates?",
+        "Tell me about the admission interview process for BS.",
+        "Is an interview required for BS admission?"
       ],
       "responses": [
-        "An admission interview may be part of the application process for the Computer Science program. If required, the university will notify you about the interview schedule and details.",
-        "Yes, an interview is conducted as part of the admission process to assess your suitability for the program. The university will provide you with information regarding the interview process and preparation tips.",
-        "To prepare for the admission interview, you can research common interview questions, review your application materials, and brush up on your knowledge of computer science topics. Additionally, it is helpful to practice answering questions confidently and articulately."
+        "For the BS program, there is no admission interview requirement. The admission to the BS program is based on merit, academic qualifications, and other criteria specified by the university.",
+        "There are no admission interviews for candidates applying to the BS program. Admissions are solely based on the applicant's academic record and meeting the eligibility criteria.",
+        "Applicants for the BS program are not required to appear for an admission interview. The selection process is conducted based on the academic qualifications and merit.",
+        "Please note that there is no admission interview process for the BS program. Admission to the BS program is solely based on the applicant's eligibility and meeting the university's requirements.",
+        "For BS admission, no interview is conducted. The selection is done based on the applicant's academic achievements and meeting the specified criteria for the program."
       ]
     },
     {
       "tag": "admission_status",
       "patterns": [
-        "Is there a specific timeline for receiving admission decisions for the Software Engineering program?",
-        "Can I track the progress of my application through the university's mobile app?",
-        "What should I do if I haven't received any communication regarding my admission status?",
-        "Are there any additional documents required to complete the admission process?",
-        "Is there an application status tracker on the university's website?",
-        "When is the deadline for accepting the admission offer once it's been granted?",
-        "How long does it usually take for the admissions office to respond to admission-related queries?",
-        "Can I appeal the admission decision if my application is initially denied?",
-        "Is there an option to defer my admission to the next academic year?",
-        "What factors are considered in the admission decision-making process?"
+        "How can I check my admission status?",
+        "Where can I find the merit list for admission?",
+        "Is the admission status available online?",
+        "How will I know if I have been awarded a seat?",
+        "What should I do after my seat is awarded?"
       ],
       "responses": [
-        "The timeline for receiving admission decisions for the Software Engineering program may vary depending on the number of applications received. However, the university aims to notify applicants within 2 weeks after the application deadline.",
-        "Yes, the university's mobile app may have a feature to track the progress of your application. You can download the app and log in with your application credentials to check for updates.",
-        "If you haven't received any communication regarding your admission status, it's best to contact the admissions office immediately. They can provide you with the latest information and address any concerns you may have.",
-        "In some cases, additional documents may be required to complete the admission process. If this applies to your application, the admissions office will notify you of the specific documents needed.",
-        "Yes, the university's website may have an application status tracker where you can check the progress of your admission application by entering your application details.",
-        "The deadline for accepting the admission offer varies, and it will be specified in the admission letter. Generally, applicants are given a few weeks to respond and secure their admission.",
-        "The admissions office aims to respond to admission-related queries promptly. You can expect to receive a reply within 5 business days.",
-        "Yes, if your application is initially denied, some universities have an appeal process. You can contact the admissions office to inquire about the appeal procedure and whether it's applicable to your situation.",
-        "Yes, in certain circumstances, applicants may have the option to defer their admission to the next academic year. The process and conditions for deferral can be discussed with the admissions office.",
-        "The admission decision-making process takes into account various factors, including academic qualifications, test scores, letters of recommendation, personal statement, and sometimes interviews. Each application is evaluated holistically to determine the best fit for the program."
+        "You can check your admission status by visiting the university's official website and logging into your admission account. The merit list is also available on the website.",
+        "The merit list for admission is published on the university's official website. You can find it in the admission section or the notice board.",
+        "Yes, the admission status is available online. You can access it by logging into your admission account on the university's website.",
+        "If you have been awarded a seat, you will receive a notification through your admission account on the university's website or through an official email or letter.After your seat is awarded, you need to complete the admission process and pay the admission fee within the specified time, usually within 2-3 days, to secure your seat."
       ]
     },
     {
       "tag": "career_opportunities",
       "patterns": [
         "What are the career opportunities available for software engineering graduates?",
-        "Can you tell me about the job prospects for software engineers?",
-        "What types of companies hire software engineering professionals?",
-        "Are there any specialized fields within software engineering that offer unique career paths?",
-        "What skills and qualifications are in demand for software engineering jobs?",
-        "Can you provide information about internships and entry-level positions in software engineering?",
-        "What is the average salary range for software engineers?",
-        "Are there opportunities for software engineers to work remotely or as freelancers?",
-        "Which industries offer the most opportunities for software engineering professionals?",
-        "Can you give examples of successful software engineering career trajectories?"
+        "What career opportunities are available for students in the Software Engineering department?",
+        "Can you tell me about job prospects for Software Engineering graduates?",
+        "What are the career options after completing a degree in Software Engineering?",
+        "How does the department help students in their career development?",
+        "Are there any career guidance sessions for students?"
       ],
       "responses": [
+        "After completing a degree in Software Engineering, students have diverse career options in the field of software development and technology. They can choose from roles such as Software Engineer, Software Tester, Software Architect, DevOps Engineer, and more.",
         "Software engineering graduates have diverse career opportunities in various industries. They can work as software developers, systems analysts, quality assurance engineers, database administrators, cybersecurity specialists, and more.",
-        "The job prospects for software engineers are promising due to the increasing reliance on technology in various sectors. Software engineers are in high demand across industries, and the career outlook is projected to be positive.",
-        "Software engineering professionals are sought after by tech companies, software development firms, financial institutions, healthcare organizations, government agencies, and e-commerce companies, among others.",
-        "Software engineering offers numerous specialized fields, including artificial intelligence, machine learning, mobile app development, web development, game development, cybersecurity, and cloud computing, each with its unique career paths.",
-        "In addition to technical skills like programming languages (such as Python, Java, C++, etc.) and software development tools, employers seek software engineers with strong problem-solving abilities, teamwork, communication skills, and adaptability.",
-        "Many companies offer internships and entry-level positions for aspiring software engineers. These opportunities provide valuable hands-on experience and a pathway to permanent roles within the organization.",
-        "The average salary range for software engineers varies based on factors such as experience, location, industry, and job role. Generally, salaries can range from [X] to [Y] per year, with potential for growth with experience and expertise.",
-        "Yes, software engineers often have opportunities to work remotely or as freelancers, especially in the realm of freelance software development, remote tech teams, and consulting roles.",
-        "Software engineering professionals can find employment in a wide range of industries, including technology, finance, healthcare, entertainment, manufacturing, education, and more.",
-        "Successful software engineering career trajectories can lead to roles such as senior software engineer, software architect, technical lead, project manager, Chief Technology Officer (CTO), and even entrepreneurship in establishing their startups or tech ventures."
+        "The department organizes career development sessions where senior professionals from the industry and alumni share their experiences and insights. These sessions help students understand the industry trends and prepare for their future careers.",
+        "Yes, the department conducts career guidance sessions where students can interact with professionals currently working in the industry. Additionally, students are encouraged to participate in online and physical sessions organized by tech societies to learn and work in groups on different tech stacks."
+      ]
+    },
+    {
+      "tag": "extracurricular_activities",
+      "patterns": [
+        "What extracurricular sports activities are available for students?",
+        "Tell me about the sports opportunities in the department.",
+        "Are there any sports clubs or teams for students?",
+        "Can you provide information about the annual sports events?",
+        "How can I participate in sports activities at GCUF SE?",
+        "Are there any farewell events or functions for graduating students?",
+        "Tell me about the annual farewell dinner for students.",
+        "What is the matching day event in the Software Engineering department?"
+      ],
+      "responses": [
+        "The Software Engineering department offers various extracurricular sports activities for students, including cricket, football, badminton, and more. Students can join sports clubs and teams to participate in competitions and friendly matches.",
+        "We organize annual sports events that include interdepartmental sports competitions and athletic tournaments. Students are encouraged to participate and showcase their sportsmanship skills.",
+        "Yes, there are several sports clubs and teams for students, such as the Cricket Club, Football Club, and Badminton Team. Students can join these clubs and participate in regular practices and competitions.",
+        "The department hosts various annual sports events, including the Sports Gala, where students compete in different sports and games. It's a great opportunity for students to showcase their talents and teamwork.",
+        "To participate in sports activities at GCUF SE, you can join the sports clubs or teams available in the department. Additionally, keep an eye on the department's announcements for upcoming sports events and competitions.",
+        "Yes, there are farewell events organized for graduating students. The department hosts a farewell dinner where students, faculty, and staff come together to celebrate the achievements of the graduating class.",
+        "The annual farewell dinner is a special event where graduating students are honored, and they have the opportunity to share their experiences and memories. It's a memorable evening filled with joy and nostalgia.",
+        "The matching day event in the Software Engineering department is an annual event where students are paired with industry mentors based on their interests and career goals. It helps students establish connections with professionals and gain insights into the industry."
       ]
     }
+    
   ]
 }
