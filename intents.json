@@ -442,8 +442,7 @@
         "You can check your admission status by visiting the university's official website and logging into your admission account. The merit list is also available on the website.",
         "The merit list for admission is published on the university's official website. You can find it in the admission section or the notice board.",
         "Yes, the admission status is available online. You can access it by logging into your admission account on the university's website.",
-        "If you have been awarded a seat, you will receive a notification through your admission account on the university's website or through an official email or letter.",
-        "After your seat is awarded, you need to complete the admission process and pay the admission fee within the specified time, usually within 2-3 days, to secure your seat."
+        "If you have been awarded a seat, you will receive a notification through your admission account on the university's website or through an official email or letter.After your seat is awarded, you need to complete the admission process and pay the admission fee within the specified time, usually within 2-3 days, to secure your seat."
       ]
     },
     {
@@ -462,6 +461,30 @@
         "The department organizes career development sessions where senior professionals from the industry and alumni share their experiences and insights. These sessions help students understand the industry trends and prepare for their future careers.",
         "Yes, the department conducts career guidance sessions where students can interact with professionals currently working in the industry. Additionally, students are encouraged to participate in online and physical sessions organized by tech societies to learn and work in groups on different tech stacks."
       ]
+    },
+    {
+      "tag": "extracurricular_activities",
+      "patterns": [
+        "What extracurricular sports activities are available for students?",
+        "Tell me about the sports opportunities in the department.",
+        "Are there any sports clubs or teams for students?",
+        "Can you provide information about the annual sports events?",
+        "How can I participate in sports activities at GCUF SE?",
+        "Are there any farewell events or functions for graduating students?",
+        "Tell me about the annual farewell dinner for students.",
+        "What is the matching day event in the Software Engineering department?"
+      ],
+      "responses": [
+        "The Software Engineering department offers various extracurricular sports activities for students, including cricket, football, badminton, and more. Students can join sports clubs and teams to participate in competitions and friendly matches.",
+        "We organize annual sports events that include interdepartmental sports competitions and athletic tournaments. Students are encouraged to participate and showcase their sportsmanship skills.",
+        "Yes, there are several sports clubs and teams for students, such as the Cricket Club, Football Club, and Badminton Team. Students can join these clubs and participate in regular practices and competitions.",
+        "The department hosts various annual sports events, including the Sports Gala, where students compete in different sports and games. It's a great opportunity for students to showcase their talents and teamwork.",
+        "To participate in sports activities at GCUF SE, you can join the sports clubs or teams available in the department. Additionally, keep an eye on the department's announcements for upcoming sports events and competitions.",
+        "Yes, there are farewell events organized for graduating students. The department hosts a farewell dinner where students, faculty, and staff come together to celebrate the achievements of the graduating class.",
+        "The annual farewell dinner is a special event where graduating students are honored, and they have the opportunity to share their experiences and memories. It's a memorable evening filled with joy and nostalgia.",
+        "The matching day event in the Software Engineering department is an annual event where students are paired with industry mentors based on their interests and career goals. It helps students establish connections with professionals and gain insights into the industry."
+      ]
     }
+    
   ]
 }
